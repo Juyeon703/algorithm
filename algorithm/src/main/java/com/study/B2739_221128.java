@@ -1,5 +1,6 @@
-package com.algorithm;
+package com.study;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*

@@ -1,4 +1,6 @@
-package com.algorithm;
+package com.study;
+
+import java.util.Scanner;
 
 /*
   문자열 반복
@@ -15,6 +17,21 @@ package com.algorithm;
   - 출력
   각 테스트 케이스에 대해 P를 출력한다.
 */
-public class B2675_221128 {
-
+public class B2675_221129 {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int t = scanner.nextInt();
+    for (int i = 0; i < t; i++) {
+      int r = scanner.nextInt();
+      String s = scanner.next();
+      String[] str = s.split("");
+      for (int j = 0; j < str.length; j++) {
+        for (int k = 0; k < r; k++) {
+          System.out.print(str[j]);
+        }
+      }
+      System.out.println();
+    }
+    scanner.close();
+  }
 }

@@ -1,4 +1,3 @@
-
 import java.io.*;
 import java.util.StringTokenizer;
 
@@ -24,7 +23,7 @@ public class Main {
   }
 
   static int function() {
-    for (int k = 1; k < z; k++) {
+    for (int k = 1; k < n; k++) {
       boolean[] visited = tf.clone();
       int start = 1;
 

@@ -1,3 +1,4 @@
+
 import java.io.*;
 import java.util.StringTokenizer;
 
@@ -26,14 +27,12 @@ public class Main {
     for (int k = 1; k < n; k++) {
       boolean[] visited = tf.clone();
       int start = 1;
-
       while (true) {
         if (start == z) return k;
-
         if (visited[start]) break;
         else visited[start] = true;
-        start = (start + k) % n;
-        if (start == 0) start = n;
+        start += k;
+        if (start > n) start -= n;
       }
     }
     return -1;

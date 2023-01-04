@@ -50,8 +50,8 @@ public class B7568_221229 {
     int[][] arr = new int[n][2];
     for (int i = 0; i < arr.length; i++) {
       StringTokenizer st = new StringTokenizer(br.readLine());
-      arr[i][0] = Integer.parseInt(st.nextToken());
-      arr[i][1] = Integer.parseInt(st.nextToken());
+      arr[i][0] = Integer.parseInt(st.nextToken()); // 몸무게
+      arr[i][1] = Integer.parseInt(st.nextToken()); // 키
     }
 
     for (int i = 0; i < n; i++) {

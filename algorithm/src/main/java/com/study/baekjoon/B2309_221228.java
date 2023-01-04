@@ -33,7 +33,7 @@ public class B2309_221228 {
     int sum = 0;
     for (int i = 0; i < arr.length; i++) {
       arr[i] = Integer.parseInt(br.readLine());
-      sum += arr[i];
+      sum += arr[i]; // 9명 난쟁이 키 합계
     }
     Arrays.sort(arr);
     int a = 0;

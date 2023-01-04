@@ -27,12 +27,13 @@ public class B1065_221228 {
     int count = 99;
 
     if (n < 100) System.out.println(n);
-    else {
+    else { // 100 이상일 때
       for (int i = 100; i <= n; i++) {
         if (i == 1000) break;
         int[] arr = new int[3];
         int j = 0;
         int temp = i;
+        // 숫자 1자리씩 배열에 저장
         while (temp > 0) {
           arr[j] = temp % 10;
           temp /= 10;

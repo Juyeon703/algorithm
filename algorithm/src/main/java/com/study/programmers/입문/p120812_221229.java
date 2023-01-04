@@ -2,6 +2,8 @@ package com.study.programmers.입문;
 
 import java.util.*;
 
+// Day 3
+// 최빈값 구하기
 public class p120812_221229 {
   public static void main(String[] args) {
     int[] array = {1, 1, 2, 2, 4, 5};

@@ -2,6 +2,7 @@ package com.study.baekjoon;
 
 import java.util.Arrays;
 import java.util.Scanner;
+// 토큰 테스트
 public class Main {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
